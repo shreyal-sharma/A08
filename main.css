@@ -4,128 +4,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Custom property */
+:root {
+    --global-color-1: #800000;
+    --border-color: #931420;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px; /* Set body width to 800 pixels */
+    margin: 0 auto;
+    background-color: #fffded;
+}
+
+/* Header styles */
+header {
+    padding: 1.5em 0 2em;
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+header img {
+    float: left;
+    padding: 0 30px;
+}
+.shadow {
+    text-shadow: 2px 2px 2px var(--global-color-1);
+}
+
+/* Main content styles */
+main {
+    padding: 0; /* Removed left and right padding */
+}
+
+/* Section styles */
 section {
     float: right;
     width: 525px;
     padding: 0 20px 20px 20px; /* Changed padding */
 }
 section h2 {
-    color: #800000;
+    color: var(--global-color-1);
     font-size: 130%;
     padding: .5em 0 .25em 0;
 }
-/* custom property */
-:root {
-    --global-color-1: #800000;
-    --border-color: #931420;
-}
-html {
-    background-color: white;
-}
-/* the styles for the elements */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    width: 800px;
-    margin: 0 auto;
-    background-color: #fffded;
-}
 
+/* Aside styles */
 aside {
     float: right;
     width: 215px;
     padding-left: 20px; /* Added left padding */
     padding-bottom: 20px; /* Added bottom padding */
 }
-
 aside h2 {
-    color: #800000;
+    color: var(--global-color-1);
     font-size: 130%;
     padding: .5em 0 .25em 0;
 }
-
 aside h3 {
     font-size: 105%;
     padding-bottom: .25em;
 }
 
-aside img {
-    padding-bottom: 1em;
-}
-
-a:focus, a:hover {
-    font-style: italic;
-}
-
-/* the styles for the header */
-header {
-    padding: 1.5em 0 2em; /* Added padding */
-    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
-}
-header img {
-    float: left;
-    padding: 0 30px; /* Added padding around image */
-}
-.shadow {
-    text-shadow: 2px 2px 2px var(--global-color-1);
-}
-
-/* the styles for the main content */
-main {
-    padding: 0;
-
-}
-/* Custom styles for the "This season's guest speakers" heading */
-main h1 {
-    font-size: 150%;
-    padding: .3em 0;
-    text-align: center;
-}
-
-main h2 {
-    color: #800000;
-    font-size: 130%;
-    padding: .5em 0 .25em 0;
-}
-main h3 {
-    font-size: 105%;
-    padding-bottom: .25em;
-}
-main img {
-    padding-bottom: 1em;
-}
-main p {
-    padding-bottom: .5em;
-}
-main blockquote {
-    padding: 0 2em;
-    font-style: italic;
-}
-main ul {
-    padding: 0 0 .25em 1.25em;
-}
-main li {
-    padding-bottom: .35em;
-}
-/* Custom styles for the Speakers heading */
-main h2#speakers {
-    padding: 0.5em;
-    background-color: #f6bb73;
-    color: white;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-/* the styles for the footer */
+/* Footer styles */
 footer {
-    clear: both;
+    clear: both; /* Clear floating */
     background-color: #931420;
 }
 footer p {
     text-align: center;
     padding: 1em 0;
 }
+
+/* Style rule for hl element */
 hl {
     font-size: 150%;
     padding-top: 0.5em;
@@ -133,3 +85,9 @@ hl {
     margin: 0;
 }
 
+/* Image styles */
+main img {
+    float: right; /* Float the image to the right */
+    margin: 10px 0 10px 10px; /* Set top, bottom, and left margins */
+    border: 1px solid black; /* Add a 1-pixel black border */
+}
