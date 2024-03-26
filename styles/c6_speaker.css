@@ -28,10 +28,10 @@ header {
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 	background-image: linear-gradient(
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	    border-bottom: 3px solid #800000; /* Add a solid black line under the header */
+
 }
-header {
-        border-bottom: 3px solid var(--border-color); /* Added bottom border */
-}
+
 header h2 {
 	font-size: 175%;
 	color: #800000;
