@@ -1,15 +1,28 @@
-/* the styles for the section */
+/* Reset selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 section {
     float: right;
     width: 525px;
     padding: 0 20px 20px 20px; /* Changed padding */
 }
-
 section h2 {
     color: #800000;
     font-size: 130%;
     padding: .5em 0 .25em 0;
 }
+/* custom property */
+:root {
+    --global-color-1: #800000;
+    --border-color: #931420;
+}
+html {
+    background-color: white;
+}
+/* the styles for the elements */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -19,7 +32,6 @@ body {
     background-color: #fffded;
 }
 
-/* the styles for the aside */
 aside {
     float: right;
     width: 215px;
@@ -42,52 +54,73 @@ aside img {
     padding-bottom: 1em;
 }
 
-/* the styles for the main content */
-main {
-    /* Removed left and right padding */
-    padding: 0;
+a:focus, a:hover {
+    font-style: italic;
 }
 
+/* the styles for the header */
+header {
+    border-bottom: 3px solid var(--border-color); /* Added bottom border */
+    padding: 1.5em 0 2em; /* Added padding */
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+header img {
+    float: left;
+    padding: 0 30px; /* Added padding around image */
+}
+.shadow {
+    text-shadow: 2px 2px 2px var(--global-color-1);
+}
+
+/* the styles for the main content */
+main {
+    padding: 0;
+
+}
+/* Custom styles for the "This season's guest speakers" heading */
 main h1 {
     font-size: 150%;
     padding: .3em 0;
-    border-bottom: 3px solid #931420;
+    text-align: center;
+    border-top: 3px double var(--border-color); /* Added double border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow */
 }
 
 main h2 {
-    color: #800000;
+    color: var(--global-color-1);
     font-size: 130%;
     padding: .5em 0 .25em 0;
 }
-
 main h3 {
     font-size: 105%;
     padding-bottom: .25em;
 }
-
 main img {
-    float: right;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px; /* Adjusted margins */
-    border: 1px solid black; /* Added border */
+    padding-bottom: 1em;
 }
-
 main p {
     padding-bottom: .5em;
 }
-
 main blockquote {
     padding: 0 2em;
     font-style: italic;
 }
-
 main ul {
     padding: 0 0 .25em 1.25em;
 }
-
 main li {
     padding-bottom: .35em;
+}
+/* Custom styles for the Speakers heading */
+main h2#speakers {
+    padding: 0.5em;
+    background-color: #f6bb73;
+    color: white;
+    text-align: center;
+    border: 3px double #931420;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* the styles for the footer */
@@ -95,19 +128,14 @@ footer {
     clear: both;
     background-color: #931420;
 }
-
 footer p {
     text-align: center;
-    color: white;
     padding: 1em 0;
 }
-
-/* Style rule for hl element */
 hl {
     font-size: 150%;
     padding-top: 0.5em;
     padding-bottom: 0.25em;
     margin: 0;}
-
 
 
