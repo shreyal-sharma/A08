@@ -23,6 +23,8 @@ body {
 
 /* Header styles */
 header {
+        border-bottom: 3px solid var(--border-color); /* Added bottom border */
+
     padding: 1.5em 0 2em;
     background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
