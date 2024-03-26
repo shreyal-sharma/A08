@@ -105,7 +105,10 @@ aside h2 {
 aside h3 {
     font-size: 105%;
     padding-bottom: .25em;
+	    margin-bottom: 1em; /* Add more space between each guest speaker */
+
 }
+
 
 /* Footer styles */
 footer {
