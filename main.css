@@ -32,6 +32,9 @@ header img {
     float: left;
     padding: 0 30px;
 }
+header h3.shadow {
+    font-style: italic;
+}
 .shadow {
     text-shadow: 2px 2px 2px var(--global-color-1);
 }
