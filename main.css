@@ -11,6 +11,12 @@
     --border-color: #931420;
 }
 
+article img {
+    float: right;
+    margin: 10px; /* Adjust the margins as needed */
+    border: 1px solid black; /* Add a 1-pixel black border */
+}
+
 /* Global styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -58,12 +64,15 @@ section {
 section h1 {
     font-size: 150%;
     padding: .3em 0;
+	boder-bottom: 2px solid var(--border-color);
 }
 
 section h2 {
     color: var(--global-color-1);
     font-size: 130%;
     padding: .5em 0 .25em 0;
+		boder-bottom: 2px solid var(--border-color);
+
 
 }
 
