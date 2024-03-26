@@ -14,11 +14,6 @@ section h2 {
     font-size: 130%;
     padding: .5em 0 .25em 0;
 }
-header h2 {
-    color: #800000;
-    
-}
-
 /* custom property */
 :root {
     --global-color-1: #800000;
@@ -33,7 +28,6 @@ body {
     font-size: 100%;
     width: 800px;
     margin: 0 auto;
-    border: 3px solid var(--border-color);
     background-color: #fffded;
 }
 
@@ -65,7 +59,6 @@ a:focus, a:hover {
 
 /* the styles for the header */
 header {
-    border-bottom: 3px solid var(--border-color); /* Added bottom border */
     padding: 1.5em 0 2em; /* Added padding */
     background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
@@ -120,7 +113,6 @@ main h2#speakers {
     background-color: #f6bb73;
     color: white;
     text-align: center;
-    border: 3px double #931420;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -138,6 +130,6 @@ hl {
     font-size: 150%;
     padding-top: 0.5em;
     padding-bottom: 0.25em;
-    margin: 0;}
-
+    margin: 0;
+}
 
