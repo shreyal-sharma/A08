@@ -20,7 +20,6 @@ a:focus, a:hover {
 /* the styles for the header */
 header {
 	padding: 1.5em 0 2em 0;
-	border-bottom: 3px solid #931420;
 		background-image: -moz-linear-gradient(
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 	background-image: -webkit-linear-gradient(
@@ -55,13 +54,11 @@ section {
 section h1 {
     font-size: 150%;
     padding: .3em 0;
-    border-bottom: 2px solid #800000; /* Add a 2px solid line on the bottom */
 }
 section h2 {
     color: #800000;
     font-size: 130%;
     padding: .5em 0 .25em 0;
-    border-top: 2px solid #800000; /* Add a 2px solid line on the top */
 }
 
 section p {
@@ -81,8 +78,6 @@ section li {
 /* the styles for the article */
 article {
 	padding: .5em 0;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
 }
 article h2 {
 	padding-top: 0;
