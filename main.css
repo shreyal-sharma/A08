@@ -82,9 +82,6 @@ main h1 {
     font-size: 150%;
     padding: .3em 0;
     text-align: center;
-    border-top: 3px double var(--border-color); /* Added double border */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow */
 }
 
 main h2 {
