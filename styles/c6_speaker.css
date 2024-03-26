@@ -92,10 +92,11 @@ article h3 {
 	padding-bottom: .25em;
 }
 article img {
-	float: right;
-	margin: .5em 0 1em 1em;
-	border: 1px solid black;
+    float: right;
+    margin: 10px; /* Adjust the margins as needed */
+    border: 1px solid black; /* Add a 1-pixel black border */
 }
+
 
 /* the styles for the aside */
 aside {
