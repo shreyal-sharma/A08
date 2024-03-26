@@ -12,14 +12,6 @@ section h2 {
     font-size: 130%;
     padding: .5em 0 .25em 0;
 }
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    width: 800px;
-    margin: 0 auto;
-    border: 3px solid var(--border-color);
-    background-color: #fffded;
-}
 
 /* the styles for the aside */
 aside {
@@ -44,6 +36,10 @@ aside img {
     padding-bottom: 1em;
 }
 
+/* the styles for the main content */
+main {
+    /* Removed left and right padding */
+}
 
 main h1 {
     font-size: 150%;
@@ -97,5 +93,6 @@ footer p {
     color: white;
     padding: 1em 0;
 }
+
 
 
