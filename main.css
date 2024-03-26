@@ -127,6 +127,10 @@ footer p {
         background-color: #931420;
 
 }
+.footer-text {
+    color: white;
+    /* Add other styles as needed */
+}
 
 /* Style rule for hl element */
 hl {
