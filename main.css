@@ -14,6 +14,11 @@ section h2 {
     font-size: 130%;
     padding: .5em 0 .25em 0;
 }
+header h2 {
+    color: #800000;
+    
+}
+
 /* custom property */
 :root {
     --global-color-1: #800000;
