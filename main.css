@@ -10,7 +10,17 @@
     --global-color-1: #800000;
     --border-color: #931420;
 }
-
+/* the styles for the article */
+article {
+	padding: .5em 0;
+}
+article h2 {
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
 article img {
     float: right;
     margin: 10px; /* Adjust the margins as needed */
