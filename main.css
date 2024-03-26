@@ -68,6 +68,10 @@ aside {
     padding-left: 20px; /* Added left padding */
     padding-bottom: 20px; /* Added bottom padding */
 }
+header h2{
+    color: #800000;
+}
+
 aside h2 {
     color: var(--global-color-1);
     font-size: 130%;
