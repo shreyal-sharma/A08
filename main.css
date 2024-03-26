@@ -47,6 +47,14 @@ section {
     width: 525px;
     padding: 0 20px 20px 20px; /* Changed padding */
 }
+/* Style rule for the Speaker of the Month heading */
+section h1 {
+    font-size: 150%;
+    padding: .3em 0;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color); /* Add border */
+}
+
 section h2 {
     color: var(--global-color-1);
     font-size: 130%;
