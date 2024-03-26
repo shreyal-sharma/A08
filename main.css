@@ -43,7 +43,10 @@ header h3.shadow {
 main {
     padding: 0; /* Removed left and right padding */
 }
-
+main blockquote {
+    padding: 0 2em;
+    font-style: italic;
+}
 /* Section styles */
 section {
     float: right;
