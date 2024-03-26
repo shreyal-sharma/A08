@@ -73,7 +73,9 @@ aside {
 header h2{
     color: #800000;
 }
-
+aside h1 {
+    color: var(--global-color-1);
+}
 aside h2 {
     color: var(--global-color-1);
     font-size: 130%;
