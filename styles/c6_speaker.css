@@ -36,6 +36,8 @@ header h2 {
 header h3 {
 	font-size: 130%;
 	font-style: italic;
+	    border-bottom: 3px solid #931420;
+
 }
 header img {
 	float: left;
