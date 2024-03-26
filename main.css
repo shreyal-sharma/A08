@@ -2,7 +2,9 @@
 section {
     float: right;
     width: 525px;
-    padding: 0 20px 20px 20px; /* Changed padding */
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-bottom: 20px; /* Changed padding */
 }
 
 section h2 {
@@ -42,11 +44,6 @@ aside img {
     padding-bottom: 1em;
 }
 
-/* the styles for the main content */
-main {
-    /* Removed left and right padding */
-    padding: 0;
-}
 
 main h1 {
     font-size: 150%;
